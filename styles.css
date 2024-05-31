@@ -7,6 +7,7 @@ body{
     height: 100vh;
     font-family:  'sora', sans-serif;
 
+    --white: #ffffff;
     --dark-white: #efefef;
 }
 
@@ -25,11 +26,27 @@ body{
 }
 
 #content-container{
+    display: flex;
+    flex-direction: column;
+
     grid-row: 2/3;
     align-items: center;
     background-color: var(--dark-white);
     border-radius: 2rem;
     margin-inline: clamp(1rem, 4vw, 4rem);
     margin-bottom: 2rem;
+
+    padding: 2rem;
 }
 
+#dropdown-menu-container{
+    width: 100%;
+   
+    max-width: 16rem;
+    background-color: var(--white);
+    border-radius: 2rem;
+}
+
+#dropdown-menu{
+    padding: 2rem;
+    }
