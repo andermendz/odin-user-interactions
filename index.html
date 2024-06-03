@@ -5,17 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dynamic User Interface Interactions DEMO</title>
     <link rel="stylesheet" href="./styles.css" />
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <section id="global-container">
-      <div id="title-container">Dynamic User Interface Interactions</div>
+      <div id="title-container">
+        Dynamic User Interface Interactions
+      </div>
       <div id="content-container">
         <div id="dropdown-menu-container">
             <div id="dropdown-menu">
               <div id="dropdown-content">
-                <div class="dropdown-toggle">
-                  Show Options
+                <div id="dropdown-toggle">
+                  <div>
+                    Show Options
+                  </div>
+               
+                  <span class="material-symbols-outlined">
+                    keyboard_arrow_down
+                    </span>
+                
                 </div>
 
                 <div class="dropdown-option">
