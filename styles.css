@@ -52,30 +52,30 @@ body {
   padding: 1rem;
   height: 3rem;
 
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #dropdown-content {
   display: flex;
   flex-flow: column;
   gap: 1rem;
-  transition: all 0.4s ease-in-out;
+
 
 }
 
 #dropdown-content > div {
   background-color: var(--dark-white);
-
-  padding: 0.8rem;
   border-radius: 0.8rem;
 }
 
 .dropdown-option {
-  display: none;
+
+transition: all 0.1s ease-in-out;
 }
 
 #dropdown-toggle {
   display: flex;
+  padding: 0.8rem;
   align-items: center;
   justify-content: space-between;
 }
@@ -83,4 +83,16 @@ body {
 #dropdown-toggle > span {
   background-color: var(--white);
   border-radius: 0.5rem;
+}
+
+.option-hidden{
+  opacity: 0;
+  height: 0rem;
+  padding: 0rem;
+
+}
+
+.option-visible{
+  opacity: 1;
+  padding: 0.8rem;
 }
