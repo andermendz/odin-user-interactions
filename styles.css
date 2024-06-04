@@ -10,6 +10,7 @@ body {
 
   --white: #ffffff;
   --dark-white: #efefef;
+  --dark-grey: #a9a9a9;
 }
 
 #global-container {
@@ -42,17 +43,23 @@ body {
 
 #dropdown-menu-container {
   width: 100%;
-
   max-width: 20rem;
-  background-color: var(--white);
+  height: 20rem;
+
+  
   border-radius: 2rem;
+
+  border: 0.1rem solid var(--dark-grey);
+  border-style: dashed;
 }
 
 #dropdown-menu {
+  border-radius: 2rem;
+  background-color: var(--white);
   padding: 1rem;
   height: 3rem;
 
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 #dropdown-content {
@@ -64,13 +71,17 @@ body {
 }
 
 #dropdown-content > div {
+
+  cursor: pointer;
+
   background-color: var(--dark-white);
   border-radius: 0.8rem;
 }
 
 .dropdown-option {
 
-transition: all 0.1s ease-in-out;
+transition: all 0.2s ease-in-out;
+
 }
 
 #dropdown-toggle {
@@ -89,6 +100,7 @@ transition: all 0.1s ease-in-out;
   opacity: 0;
   height: 0rem;
   padding: 0rem;
+  padding-inline: 0.8rem;
 
 }
 
