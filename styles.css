@@ -46,7 +46,6 @@ body {
   max-width: 20rem;
   height: 20rem;
 
-  
   border-radius: 2rem;
 
   border: 0.1rem solid var(--dark-grey);
@@ -66,12 +65,9 @@ body {
   display: flex;
   flex-flow: column;
   gap: 1rem;
-
-
 }
 
 #dropdown-content > div {
-
   cursor: pointer;
 
   background-color: var(--dark-white);
@@ -79,9 +75,7 @@ body {
 }
 
 .dropdown-option {
-
-transition: all 0.2s ease-in-out;
-
+  transition: all 0.2s ease-in-out;
 }
 
 #dropdown-toggle {
@@ -96,15 +90,14 @@ transition: all 0.2s ease-in-out;
   border-radius: 0.5rem;
 }
 
-.option-hidden{
+.option-hidden {
   opacity: 0;
   height: 0rem;
   padding: 0rem;
   padding-inline: 0.8rem;
-
 }
 
-.option-visible{
+.option-visible {
   opacity: 1;
   padding: 0.8rem;
 }
