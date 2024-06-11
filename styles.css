@@ -50,7 +50,6 @@ body {
 }
 
 #dropdown-menu-container {
-
 }
 
 #dropdown-menu {
@@ -107,7 +106,6 @@ body {
   background-color: var(--white);
   padding: 1rem;
   width: 100%;
-
 }
 #carousel-content {
   display: flex;
@@ -119,14 +117,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
+
   background-color: var(--white);
   border: 0.1rem solid var(--dark-grey);
-  padding: 0.2rem;
-  height: 2rem;
+  padding: 0.4rem;
+  height: 3rem;
   width: 2rem;
   border-radius: 0.6rem;
+  transition: all 0.2s ease-in;
+}
+.carousel-option > span {
+  font-size: 2rem;
+}
+
+.carousel-option:hover {
+  transform: scale(1.06);
 }
 
 #carousel-options {
