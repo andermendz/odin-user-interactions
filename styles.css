@@ -121,10 +121,12 @@ body {
   align-items: center;
   
   
-  background-color: var(--dark-grey);
+  background-color: var(--white);
+  border: 0.1rem solid var(--dark-grey);
+  padding: 0.2rem;
   height: 2rem;
   width: 2rem;
-  border-radius: 0.2rem;
+  border-radius: 0.6rem;
 }
 
 #carousel-options {
