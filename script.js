@@ -36,12 +36,13 @@ function showSlide(index){
 }
 
 carouselOptionLeft.onclick = ()=>{
-  index--
+  index = (index == 0) ? carouselImageContainers.length - 1: index - 1;
   showSlide(index)
 }
 
 carouselOptionRight.onclick = ()=>{
-  index++
+  
+  index = (index == carouselImageContainers.length - 1) ? 0: index + 1;
   showSlide(index)
 }
 
