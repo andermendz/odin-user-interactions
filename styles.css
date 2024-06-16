@@ -112,14 +112,17 @@ body {
   display: flex;
   position: relative;
   height: 100%;
-
-
+  overflow: hidden;
+}
 
 .carousel-image-container{
   min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.carousel-image-container >img{
+.carousel-image-container> img{
   width: 100%;
   border-radius: 1rem;
 }
@@ -128,7 +131,7 @@ body {
   display: flex;
   transition: all 0.6s ease-in-out;
 }
-}
+
 .carousel-option {
   display: flex;
   justify-content: center;
