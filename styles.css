@@ -140,8 +140,8 @@ body {
   background-color: var(--white);
   border: 0.1rem solid var(--dark-grey);
   padding: 0.4rem;
-  height: 3rem;
-  width: 2rem;
+  height: 2rem;
+  width: 1rem;
   border-radius: 0.6rem;
   transition: all 0.2s ease-in;
 }
