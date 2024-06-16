@@ -107,12 +107,28 @@ body {
   padding: 1rem;
   width: 100%;
 }
+
 #carousel-content {
   display: flex;
   position: relative;
   height: 100%;
+
+
+
+.carousel-image-container{
+  min-width: 100%;
 }
 
+.carousel-image-container >img{
+  width: 100%;
+  border-radius: 1rem;
+}
+
+#carousel-images{
+  display: flex;
+  transition: all 0.6s ease-in-out;
+}
+}
 .carousel-option {
   display: flex;
   justify-content: center;
@@ -132,6 +148,7 @@ body {
 
 .carousel-option:hover {
   transform: scale(1.06);
+  cursor: pointer;
 }
 
 #carousel-options {
@@ -142,8 +159,7 @@ body {
   justify-content: space-between;
 }
 
-#carousel-option-left {
-}
+
 
 .option-hidden {
   opacity: 0;

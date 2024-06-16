@@ -22,3 +22,26 @@ dropdownToggle.onclick = () => {
     }
   });
 };
+
+
+let carouselContent = document.getElementById('carousel-images')
+let carouselImageContainers = document.querySelectorAll('.carousel-image-container')
+let index = 0;
+
+let carouselOptionLeft = document.getElementById('carousel-option-left')
+let carouselOptionRight = document.getElementById('carousel-option-right')
+
+function showSlide(index){
+  carouselContent.style.transform = `translateX(-${index*100}%)`
+}
+
+carouselOptionLeft.onclick = ()=>{
+  index--
+  showSlide(index)
+}
+
+carouselOptionRight.onclick = ()=>{
+  index++
+  showSlide(index)
+}
+
