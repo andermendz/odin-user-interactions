@@ -19,6 +19,7 @@ body {
 }
 
 #title-container {
+  text-align: center;
   grid-row: 1/2;
   display: flex;
   align-items: center;
